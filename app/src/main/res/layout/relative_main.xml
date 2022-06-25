@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".ConstrainActivity">
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button9"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:backgroundTint="@color/teal_700"
+        tools:ignore="SpeakableTextPresentCheck" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button10"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:backgroundTint="@color/secondary_light"
+        android:layout_toEndOf="@+id/button9"
+        tools:ignore="SpeakableTextPresentCheck" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button11"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:backgroundTint="@color/gray"
+        android:layout_below="@+id/button10"
+        tools:ignore="SpeakableTextPresentCheck" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button12"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:backgroundTint="@color/purple_700"
+        android:layout_below="@+id/button10"
+        android:layout_toEndOf="@+id/button11"
+        tools:ignore="SpeakableTextPresentCheck" />
+</RelativeLayout>
